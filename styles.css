@@ -1,4 +1,5 @@
 body {
+    background: #001a2c;
     margin: 20px;
     /*
     Challenge:
@@ -23,6 +24,7 @@ body {
     color: #83c5be;
     border-bottom: 6px solid #006d77;
     text-shadow: 2px 2px 5px  #83c5be;
+    border-radius: 10px;
         
     /*
     Challenge:
@@ -35,15 +37,57 @@ body {
     border: 1px dotted blue;
 }
 
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows        🤯
-- hover effects  🤯🤯
-- animations     🤯🤯🤯
-*/
+.links{
+    background-color: black;
+    width: 400px;
+    border-radius: 5px;
+    /* border: 4px dotted blue; */
+    margin: 10px auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.btn{
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #006d77;
+    /* border:  2px red dotted; */
+}
+
+.logo{
+    height: 30px;
+    border-radius: 10px;
+    /* border: 2px red solid; */
+    
+}
+.btn-grp{
+    width: 400px;
+    /* border: 1px red solid; */
+    padding: 5px 10px;
+    margin:10px auto;
+    display: flex;
+    justify-content:space-evenly;
+    /* padding:4px; */
+}
+
+.about{
+    /* border: 1px red solid; */
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    width:400px;
+    color: #83c5be;
+}
+
+.intro{
+    /* border: 1px red solid; */
+    width: 420px;
+    margin: 10px auto;
+    padding:5px 10px;
+    background-color: #edf6f9;
+    border-radius: 12px;
+    border-bottom: 8px solid #006d77;
+    text-shadow: 2px 2px 6px #83c5be;
+}
