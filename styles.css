@@ -91,3 +91,8 @@ body {
     border-bottom: 8px solid #006d77;
     text-shadow: 2px 2px 6px #83c5be;
 }
+@media(max-width:600px){
+    card, intro, links{
+        max-width:100%;
+    }
+}
